@@ -1,2 +1,1 @@
-# processing-vertex-attributes
-Attributes example with processing under MacOS.
+# Processing Vertex Attribute Example
