@@ -59,7 +59,3 @@ void setupMesh() {
     mesh.setAttrib("pointIndex", i, i / (float)pointCount);
   }
 }
-
-void keyPressed() {
-  setupMesh();
-}
