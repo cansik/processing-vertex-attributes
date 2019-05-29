@@ -1,12 +1,14 @@
+#version 150
+
 uniform mat4 projection;
 uniform mat4 modelview;
 
-attribute vec4 position;
-attribute vec4 color;
-attribute vec2 offset;
-attribute float pointIndex;
+in vec4 position;
+in vec4 color;
+in vec2 offset;
+in float pointIndex;
 
-varying vec4 vertColor;
+out vec4 vertColor;
 
 // application variables
 uniform float pointScale;
